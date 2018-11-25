@@ -1,0 +1,13 @@
+:root {
+    --barColor: #ffff00;
+}
+
+.Bar {
+  transition: background-color 2s ease;
+  background-color: var(--barColor);
+  grid-row: 1/span4 ;
+}
+
+.Bar:hover {
+        background-color:white;
+}
