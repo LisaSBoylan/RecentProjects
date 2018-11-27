@@ -1,0 +1,15 @@
+
+.BaseValue{
+    top: 0;
+    right: 135px;
+    position: fixed;
+    font-weight: 500;  
+}
+
+.BaseCode{
+    position: fixed;
+    top: 22px;
+    right: 69px;
+    padding: 4px;
+    background-color: #FFC267;  
+}

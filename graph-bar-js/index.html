@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>Currency Exchange Rate Bar Chart</title>
+    <link rel="stylesheet" href="./CSS/stylesheet.css"/>
+    <script src="./js/main.js"></script> 
+</head>
+<body onload=getData()>
+    <h1 class="Title"> Currency</h1>
+    <h2 class="BaseValue">Base Currency:</h2>
+    <select class="BaseCode" onChange="getSelect(this.value)">
+      <option value="USA">USA</option>
+      <option value="AUD">AUD</option>
+      <option value="SGD">SGD</option>
+      <option value="EUR">EUR</option>
+    </select>
+    <div class="Graph">
+        <div class="Graph-data1" style="height:88.5%">EUR &#8364</div>
+        <div class="Graph-data2" style="height:75.5%">USD $</div>
+        <div class="Graph-data3" style="height:55.9%">AUD $</div>
+        <div class="Graph-data4" style="height:45.5%">GBP &pound</div>
+    </div>
+</body>
+</html>

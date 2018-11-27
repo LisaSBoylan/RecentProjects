@@ -1,0 +1,103 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+.Title{
+    position: inherit;
+    padding-left:50px;
+    background-color: #9cff33;
+    margin:0;
+    font-style: oblique;
+    font-weight: 500;
+    height:60px;
+    vertical-align:baseline;
+    }
+
+.BaseValue{
+    top: 0;
+    right: 135px;
+    position: fixed;
+    font-weight: 500;  
+}
+
+.BaseCode{
+    position: fixed;
+    top: 22px;
+    right: 69px;
+    padding: 4px;
+    background-color: #FFC267;  
+}
+
+.Graph{    
+    display: grid;
+    grid-template-columns: 125px 125px 125px 125px;
+    /* grid-auto-rows: minmax(min-content, max-content); */
+    grid-template-rows: 90px 90px 90px 90px;
+    grid-column-gap: 5px; 
+    background-color: #ddff99;  /* bar widths will be dynamic */
+                                /*e6ffcc*/
+    position: relative;         /* establish paragraph Graph as containig block */
+    align-items: end;
+    justify-content: center;
+    font-size: 2em;    
+}
+
+
+[class^="Graph-data"] {
+  transition: background-color 2s ease;
+}
+
+
+[class*="Graph-data"]:hover {
+        background-color:white;
+}
+
+.Graph-data1{
+        background-color: #ffff00;
+        grid-row: 1/span4 ;
+}
+
+.Graph-data2{
+        background-color: #ffc266;
+        grid-row: 1/span4 ;
+}
+.Graph-data3{
+        background-color: #ffff00;
+        grid-row: 1/span4 ;
+}
+.Graph-data4{
+        background-color: #ffc266;
+        grid-row: 1/span4 ;
+}
+

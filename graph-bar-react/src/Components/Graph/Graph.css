@@ -1,0 +1,13 @@
+.Graph{    
+    display: grid;
+    grid-template-columns: 125px 125px 125px 125px;
+    /* grid-auto-rows: minmax(min-content, max-content); */
+    grid-template-rows: 90px 90px 90px 90px;
+    grid-column-gap: 5px; 
+    background-color: #ddff99;  /* bar widths will be dynamic */
+                                /*e6ffcc*/
+    position: relative;         /* establish paragraph Graph as containig block */
+    align-items: end;
+    justify-content: center;
+    font-size: 2em;    
+}
